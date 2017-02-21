@@ -1,0 +1,87 @@
+body {
+	background: #6441A4;
+	width: 900px;
+	margin: 20px auto;
+}
+
+.container {
+	width: 100%;
+}
+
+.banner {
+	display: inline-block;
+}
+
+img {
+	float: left;
+	height: 50px;
+	width: auto;
+	position: center;
+}
+
+.tip {
+	background: #6441A4;
+	color: white;
+	width: 140px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.tabs {
+	width: 210px;
+	height: 30px;
+	display: inline-block;
+}
+
+.online {
+	border: 3px green solid;
+}
+
+.offline {
+	border: 3px red solid;
+}
+
+.deleted {
+	border: 3px white solid;
+	color: white;
+	text-align: center;
+}
+
+.streamer {
+	width: 200px;
+	height: 150px;
+	background: black;
+	display: inline-block;
+	margin: 10px 1%;
+	vertical-align: bottom; 
+}
+
+.name {
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.logo {
+	float: right;
+	text-align: left;
+	margin-left: 15px;
+	border-radius: 50%;
+}
+
+.offline .logo {
+	width: 100px;
+	height: auto;
+	padding: 0 50px;
+}
+
+.info {
+	color: white;
+}
+
+.warning {
+	color: red;
+	padding-top: 25px;
+}
